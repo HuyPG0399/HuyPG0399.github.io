@@ -1,184 +1,107 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Phạm Gia Huy</title>
-    <style>
-      /* ======= TOÀN TRANG ======= */
-      body {
-        font-family: "Segoe UI", Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: linear-gradient(145deg, #f5e9da, #fff);
-        color: #3e2723;
-        line-height: 1.6;
-      }
-
-      a {
-        color: #6d4c41;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-
-      /* ======= HEADER ======= */
-      header {
-        background: linear-gradient(135deg, #8d6e63, #a1887f);
-        color: white;
-        text-align: center;
-        padding: 3rem 1rem;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-      }
-
-      header h1 {
-        margin: 0;
-        font-size: 2.8rem;
-        font-weight: bold;
-      }
-
-      header p {
-        font-size: 1.2rem;
-        opacity: 0.9;
-      }
-
-      /* ======= PHẦN NỘI DUNG ======= */
-      section {
-        max-width: 900px;
-        margin: 2rem auto;
-        padding: 2rem;
-        background: #fffaf3;
-        border-radius: 12px;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-
-      section:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
-      }
-
-      h2 {
-        color: #5d4037;
-        border-left: 5px solid #a1887f;
-        padding-left: 12px;
-        margin-bottom: 1rem;
-      }
-
-      /* ======= KỸ NĂNG ======= */
-      .skills {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.8rem;
-      }
-
-      .skill {
-        background: #efebe9;
-        color: #4e342e;
-        padding: 0.7rem 1rem;
-        border-radius: 6px;
-        font-weight: 600;
-        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
-        transition: background 0.3s;
-      }
-
-      .skill:hover {
-        background: #d7ccc8;
-      }
-
-      /* ======= LIÊN HỆ ======= */
-      .contact p {
-        margin: 0.4rem 0;
-      }
-
-      /* ======= FOOTER ======= */
-      footer {
-        text-align: center;
-        background-color: #6d4c41;
-        color: white;
-        padding: 1.5rem 0;
-        font-size: 0.95rem;
-        margin-top: 3rem;
-      }
-
-      footer p {
-        margin: 0;
-      }
-
-      /* ======= RESPONSIVE ======= */
-      @media (max-width: 600px) {
-        header h1 {
-          font-size: 2rem;
-        }
-        section {
-          padding: 1.5rem;
-        }
-      }
-    </style>
+    <title>Leon (Huy) | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>Xin chào! Tôi là Huy</h1>
-      <p>Kỹ sư phần mềm & Nhà phát triển giao diện web</p>
+      <div class="header-content">
+        <img
+          src="https://img.freepik.com/premium-vector/software-developer-vector-illustration-communication-technology-cyber-security_1249867-5444.jpg?semt=ais_hybrid&w=740&q=80"
+          alt="Profile Picture"
+          class="avatar"
+        />
+        <h1>Hello! I'm Leon (Huy)</h1>
+        <p>Software Engineer (2nd Year from PTIT HCMC)</p>
+      </div>
     </header>
 
     <section>
-      <h2>Giới thiệu</h2>
+      <h2>About Me</h2>
       <p>
-        Tôi là một người yêu thích công nghệ, đam mê sáng tạo và luôn không
-        ngừng học hỏi. Tôi mong muốn tạo ra những sản phẩm phần mềm thân thiện,
-        tối ưu và mang lại trải nghiệm tốt nhất cho người dùng. Với kiến thức về
-        phát triển web, tôi hướng tới việc xây dựng các ứng dụng hiện đại, hiệu
-        suất cao và có tính thẩm mỹ.
+        I'm passionate about technology, love creating things, and always eager
+        to learn. I want to build user-friendly, optimized software that brings
+        a great experience. With my web development skills, I aim to make
+        modern, fast, and good-looking applications.
       </p>
     </section>
 
     <section>
-      <h2>Kỹ năng</h2>
+      <h2>Skills</h2>
       <div class="skills">
         <div class="skill">HTML & CSS</div>
         <div class="skill">JavaScript</div>
         <div class="skill">ReactJS</div>
         <div class="skill">TypeScript</div>
         <div class="skill">UI/UX Design</div>
-        <div class="skill">Node.js (Cơ bản)</div>
+        <div class="skill">Node.js (Basic)</div>
       </div>
     </section>
 
     <section>
-      <h2>Dự án gần đây</h2>
+      <h2>Experience</h2>
       <p>
-        Tôi hiện đang tham gia phát triển hệ thống thanh toán POS, tập trung vào
-        tối ưu hiệu năng và trải nghiệm người dùng. Dự án giúp cửa hàng xử lý
-        giao dịch nhanh chóng, an toàn và trực quan hơn.
+        <strong>Technical Support</strong> – POS Payment System (2025)<br />
+        I'm currently working on a POS payment system, focusing on performance
+        and user experience. The project helps shops handle transactions
+        quickly, safely, and easily.
       </p>
     </section>
 
     <section>
-      <h2>Liên hệ</h2>
+      <h2>Education</h2>
+      <p>
+        <strong>Bachelor of Software Engineering</strong><br />
+        Posts and Telecommunications Institute of Technology – Ho Chi Minh
+        City<br />
+        2023 – Present
+      </p>
+      <p>
+        <strong>Bachelor of Business Administration</strong> (Double Major in
+        Marketing)<br />
+        FPT University (Greenwich Program) – Ho Chi Minh City<br />
+        2017 - 2021
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
       <div class="contact">
-        <p>
-          📧 Email:
-          <a href="mailto:giahuypham1899@gmail.com">giahuypham1899@gmail.com</a>
-        </p>
-        <p>
-          💼 LinkedIn:
-          <a href="https://www.linkedin.com/in/huypham0399/" target="_blank"
-            >linkedin.com/in/huypham0399</a
-          >
-        </p>
-        <p>
-          💻 GitHub:
-          <a href="https://github.com/HuyPG0399" target="_blank"
-            >github.com/HuyPG0399</a
-          >
-        </p>
+        <div class="contact-item">
+          <span class="icon">📧</span>
+          <div class="info">
+            <label>Email</label>
+            <a href="mailto:giahuypham1899@gmail.com">
+              giahuypham1899@gmail.com
+            </a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="icon">💼</span>
+          <div class="info">
+            <label>LinkedIn</label>
+            <a href="https://www.linkedin.com/in/huypham0399/" target="_blank">
+              linkedin.com/in/huypham0399
+            </a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="icon">💻</span>
+          <div class="info">
+            <label>GitHub</label>
+            <a href="https://github.com/HuyPG0399" target="_blank">
+              github.com/HuyPG0399
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
     <footer>
-      <p>&copy; 2025 Phạm Gia Huy. All rights reserved.</p>
+      <p>&copy; 2025 Leon (Huy). All rights reserved.</p>
     </footer>
   </body>
 </html>
